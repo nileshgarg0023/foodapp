@@ -34,7 +34,7 @@ module.exports.sendMail = async function sendMail(str, data) {
 
   // send mail with defined transport object
   let info = await transporter.sendMail({
-    from: '"FoodApp" <nileshgarg0023@gmail.com>', // sender address
+    from: '"FoodApp" <xyz@gmail.com>', // sender address
     to: data.email, // list of receivers
     subject: Osubject, // Subject line
     // plain text body
