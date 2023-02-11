@@ -31,9 +31,15 @@ FoodApp is a simple app for ordering food plans online. It allows users to brows
 - Npm install
 
 
-3. Run the app
 
-- nodmon app.js
+3. Set up a connection to your MongoDB Atlas database. You can find instructions on how to do this in the [MongoDB documentation](https://docs.mongodb.com/guides/).
+  
+- Change mongodb url in Models folder in all the files
+  
+4. Run the app
+
+- nodemon app.js
+
 
 
 ## Contributing
