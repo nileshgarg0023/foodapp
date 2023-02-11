@@ -8,8 +8,8 @@ module.exports.sendMail = async function sendMail(str, data) {
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-      user: "nileshgarg0023@gmail.com", // generated ethereal user
-      pass: "hhqazkwfydxfzoti", // generated ethereal password
+      user: "xyz@gmail.com", // generated ethereal user
+      pass: "your own pass here", // generated ethereal password
     },
   });
 
